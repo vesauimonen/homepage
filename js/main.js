@@ -11,5 +11,11 @@ $(document).ready(function () {
     $('.links').fadeIn();
   }, 1000);
 
+  $('.hover-glow').hover(function() {
+    $(this).stop().animate({ opacity: '1', color: 'yellow' });
+  }, function() {
+    $(this).stop().animate({ opacity: '0.8', color: '#FFF' }, 'slow');
+  });
+
 
 });
