@@ -3,12 +3,12 @@ $(document).ready(function () {
     nameTop = (window.innerHeight / 2 - 200) / 2 - 20,
     linksBottom = (window.innerHeight / 2 - 200) / 2 - 15;
   $('.circle').css('top', circleTop);
+  $('.links').css('bottom', linksBottom);
   setTimeout(function() {
-    $('.name').animate({'top': nameTop + 'px'}, 'slow');
+    $('.name').animate({top: nameTop + 'px'}, 'slow');
   }, 400);
   setTimeout(function() {
-
-    $('.links').animate({'bottom': linksBottom + 'px'}, 'slow');
+    $('.links').fadeIn();
   }, 1000);
 
 

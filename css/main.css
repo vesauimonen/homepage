@@ -111,8 +111,12 @@ body {
         -webkit-border-radius: 200px;
         -moz-border-radius: 200px;
         border-radius: 200px;
+        -moz-box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.8);
+        -webkit-box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.8);
+        box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.8);
         background-color: #000;
         background: url('/img/id.jpg') no-repeat;
+        border: 3px solid #333333;
         position: absolute;}
     .container .name {
         height: 40px;
@@ -121,8 +125,7 @@ body {
         text-transform: uppercase;
         letter-spacing: 8px;
         top: -40px;
-        position: relative;
-        }
+        position: relative;}
     .container .links {
         height: 30px;
         width: 400px;
@@ -130,8 +133,7 @@ body {
         color: #FFF;
         text-align: center;
         position: absolute;
-        bottom: -30px;
-    }
+        display:none;}
 
 
 
