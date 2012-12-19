@@ -5,7 +5,7 @@ $(document).ready(function () {
   $('.circle').css('top', circleTop);
   $('.links').css('bottom', linksBottom);
   setTimeout(function() {
-    $('.name').animate({top: nameTop + 'px'}, 'slow');
+    $('.name').animate({ top: nameTop + 'px' }, 'slow');
   }, 400);
   setTimeout(function() {
     $('.links').fadeIn();
